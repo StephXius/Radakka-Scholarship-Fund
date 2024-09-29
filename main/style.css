@@ -34,8 +34,10 @@ body {
 
 nav {
     background: #ff9933;
-    height: 80px;
+    height: 90px;
     width: 100%;
+    position: fixed;
+    z-index: 1;
   }
   label.logo {
     color: black;
@@ -125,3 +127,28 @@ nav {
     }
   }
   
+  .home-page, 
+  .about-page,
+  .donations-page,
+  .contact-page {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      min-height: 100vh;
+      /* Use min-height to ensure content takes up full viewport height */
+      background-color: #000;
+  }
+
+  .grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+}
+
+  #home-header {
+    color: white;
+    font-weight: bolder;
+    font-size: 2em;
+  }
