@@ -1,59 +1,140 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
-    <title>Radakka Scholarship Fund</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+  <script src="script.js"></script>
+  <title>Radakka Scholarship Fund</title>
 </head>
+
 <body>
-    <nav>
-        <!-- Checkbox for toggling menu -->
-        <input type="checkbox" id="check">
-        <!-- Menu icon -->
-        <label for="check" class="checkbtn">
-          <i class="fas fa-bars"></i>
-        </label>
-        <!-- Site logo -->
-        <label class="logo">Radakka</label>
-        <!-- Navigation links -->
-        <ul>
-          <li><a href="#home-page">Home</a></li>
-          <li><a href="#about-page">About</a></li>
-          <li><a href="#donations-page">Donations</a></li>
-          <li><a href="#contact-page">Contact</a></li>
-          <li><a href="https://www.radakka.org/">Radakka.org</a></li>
-        </ul>
-      </nav>
+  <nav>
+    <!-- Checkbox for toggling menu -->
+    <input type="checkbox" id="check">
+    <!-- Menu icon -->
+    <label for="check" class="checkbtn">
+      <i class="fas fa-bars"></i>
+    </label>
+    <!-- Site logo -->
+    <label class="logo">Radakka</label>
+    <!-- Navigation links -->
+    <ul>
+      <li><a href="#home-page">Home</a></li>
+      <li><a href="#about-page">About</a></li>
+      <li><a href="#donations-page">Donations</a></li>
+      <li><a href="#contact-page">Contact</a></li>
+      <li><a href="https://www.radakka.org/">Radakka.org</a></li>
+    </ul>
+  </nav>
 
-      <section class="home-page" id="home-page">
-        <div class="grid-container">
+  <section class="home-page" id="home-page">
+    <div class="grid-container-home">
 
-          <div class="grid-child-one">
-            <h1 id="home-header">Welcome to Radakka Scholarship Fund</h1>
-          </div>
-          
-          <div class="grid-child-two">
-            <img class="home-image" src="images/radakka image.jpeg">
-          </div>
-          
-        </div>
-      </section>
+      <div class="grid-child-one">
+        <h1 id="home-header">Radakka Scholarship Fund</h1>
+      </div>
 
-      <section class="about-page" id="about-page">
-
-      </section>
-
-      <section class="donations-page" id="donations-page">
-
-      </section>
-
-      <section class="contact-page" id="contact-page">
-
-      </section>
+      <div class="grid-child-two">
+        <img class="home-image" src="images/radakka image.jpeg">
+      </div>
 
 
-    
+    </div>
+  </section>
+
+  <section class="about-page" id="about-page">
+
+    <div class="grid-container-about"></div>
+
+    <div class="grid-child-one">
+      <h2 id="about-header">Welcome to the Radakka Scholarship Fund page.</h2>
+    </div>
+
+    <div class="grid-child-two">
+     <!-- Slideshow container -->
+<div class="slideshow-container">
+  <div class="mySlides fade">
+    <div class="numbertext">1 / 8</div>
+    <img src="images/childone.jpg" class="about-images">
+    <div class="text">Caption Text 1</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">2 / 8</div>
+    <img src="images/childtwo.jpg" class="about-images">
+    <div class="text">Caption Text 2</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">3 / 8</div>
+    <img src="images/childthree.JPG" class="about-images">
+    <div class="text">Caption Text 3</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">4 / 8</div>
+    <img src="images/childfour.jpg" class="about-images">
+    <div class="text">Caption Text 4</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">5 / 8</div>
+    <img src="images/childfive.jpg" class="about-images">
+    <div class="text">Caption Text 5</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">6 / 8</div>
+    <img src="images/childsix.jpg" class="about-images">
+    <div class="text">Caption Text 6</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">7 / 8</div>
+    <img src="images/childseven.jpg" class="about-images">
+    <div class="text">Caption Text 7</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">8 / 8</div>
+    <img src="images/childeight.jpg" class="about-images">
+    <div class="text">Caption Text 8</div>
+  </div>
+
+  <!-- Next and previous buttons -->
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+
+<!-- Dots for slide navigation -->
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span>
+  <span class="dot" onclick="currentSlide(2)"></span>
+  <span class="dot" onclick="currentSlide(3)"></span>
+  <span class="dot" onclick="currentSlide(4)"></span>
+  <span class="dot" onclick="currentSlide(5)"></span>
+  <span class="dot" onclick="currentSlide(6)"></span>
+  <span class="dot" onclick="currentSlide(7)"></span>
+  <span class="dot" onclick="currentSlide(8)"></span>
+</div>
+
+      
+
+  </section>
+
+  <section class="donations-page" id="donations-page">
+
+  </section>
+
+  <section class="contact-page" id="contact-page">
+
+  </section>
+
+
+
 </body>
+
 </html>
