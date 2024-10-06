@@ -30,7 +30,6 @@ html {
 
 body {
   margin: 0;
-  overflow-x: hidden;
 }
 
 nav {
@@ -154,14 +153,8 @@ a:hover {
   align-items: center;
   width: 100%;
   min-height: 100vh;
-  padding: 20px; /* Ensure padding for smaller screens */
   /* Use min-height to ensure content takes up full viewport height */
   background-color: #000;
-}
-
-.grid-child-one,
-.grid-child-two {
-  padding: 10px;
 }
 
 .grid-container-home,
@@ -170,35 +163,12 @@ a:hover {
   grid-template-columns: 1fr 1fr;
   grid-gap: 20px;
   padding: 10px;
-  align-items: center; /* Aligns items vertically */
-  justify-content: center; /* Aligns items horizontally */
-  width: 100%;
-  max-width: 1200px; /* Max width to ensure content doesn't spread too wide */
-  margin: 0 auto;
 }
 
 #home-header {
   color: white;
   font-weight: bolder;
-  font-size: 4em;
-  text-align: left;
-}
-
-#home-second-header {
-  color: white;
-  font-weight: 200;
-  font-size: 2em;
-  padding-top: 5%;
-  padding-left: 5%;
-  font-style: italic;
-}
-
-.home-image {
-  width: 100%;
-  max-width: 500px; /* Prevents image from becoming too large */
-  height: auto;
-  display: block;
-  margin: 0 auto;
+  font-size: 3em;
 }
 
 #about-header {
@@ -219,7 +189,6 @@ a:hover {
   width: 70%;  /* You can change this value to make the images smaller */
   max-width: 600px; /* Set a maximum width to avoid extremely large images */
   height: auto;  /* This ensures the aspect ratio is maintained */
-  object-fit: cover; /* Ensures images scale properly */
   display: block;
   margin: 0 auto;  /* Centers the images horizontally */
 }
@@ -268,30 +237,3 @@ a:hover {
   background-color: rgba(0, 0, 0, 0.8);
 }
 
-/* Fix for sections being too wide */
-section {
-  width: 100%;
-  overflow-x: hidden;
-  padding: 20px;
-  box-sizing: border-box;
-}
-
-@media (max-width: 768px) {
-  .about-images {
-    width: 90%; /* Ensures the images aren't too large on mobile */
-  }
-
-  .grid-container-home {
-    grid-template-columns: 1fr; /* Single column on smaller screens */
-    text-align: center; /* Center text for smaller screens */
-  }
-
-  #home-header {
-    font-size: 2em;
-    text-align: center;
-  }
-
-  .home-image {
-    max-width: 80%;
-  }
-}

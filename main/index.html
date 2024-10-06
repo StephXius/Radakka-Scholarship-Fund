@@ -39,6 +39,7 @@
 
       <div class="grid-child-two">
         <img class="home-image" src="images/radakka image.jpeg">
+        <h2 id="home-second-header">Investing in the future of Haiti through education</h2>
       </div>
 
 
@@ -133,6 +134,19 @@
 
   </section>
 
+   <!-- Other sections -->
+
+   <script>
+    // JavaScript to close mobile navbar after clicking a link
+    const navLinks = document.querySelectorAll("nav ul li a");
+    const checkBox = document.getElementById("check");
+
+    navLinks.forEach(link => {
+      link.addEventListener("click", () => {
+        checkBox.checked = false;
+      });
+    });
+  </script>
 
 
 </body>

@@ -1,3 +1,6 @@
 * Add mission statement
 * Pictures of children with their stories
 * A way to collect donations
+* Update home section (add a new picture or move gallery to home section. Add vision statement)
+* Add history and purpose statement along with mission statement to about section
+* Fix mobile responsive
