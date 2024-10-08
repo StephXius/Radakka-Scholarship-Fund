@@ -44,11 +44,12 @@ nav {
 label.logo {
   color: black;
   font-weight: bold;
-  font-size: 45px;
+  font-size: 40px;
   text-shadow: 1px 1px;
   line-height: 80px;
   padding: 0 100px;
   font-weight: bold;
+  text-transform: uppercase;
 }
 
 nav ul {
@@ -342,4 +343,36 @@ section {
 footer {
   background-color: #00cc00;
   padding: 40px;
+}
+
+#footer-text {
+  color: #ffffff;
+  text-align: right;
+  font-size: 1.2em;
+}
+
+.footer-links{
+  display: flex;
+  width: 100%;
+  max-width: 500px;
+  flex-wrap: wrap;
+}
+
+.footer-links > a {
+  text-decoration: none;
+  color:white;
+}
+
+.btn-footer{
+  display: inline-block;
+  padding: 1rem 1.2rem;
+  border-radius: 2px;
+  font-size: 2rem;
+  background:#00cc00;
+}
+
+#footer-head{
+  color: #ffffff;
+  text-align: left;
+  font-size: 1.5em;
 }
