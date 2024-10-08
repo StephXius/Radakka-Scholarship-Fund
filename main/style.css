@@ -178,14 +178,14 @@ a:hover {
 }
 
 #home-header {
-  color: white;
+  color: #ff9933;
   font-weight: bolder;
   font-size: 4em;
   text-align: left;
 }
 
 #home-second-header {
-  color: white;
+  color: #ff9933;
   font-weight: 200;
   font-size: 2em;
   padding-top: 5%;
@@ -202,9 +202,10 @@ a:hover {
 }
 
 #about-header {
-  color: white;
+  color: #ff9933;
   font-weight: bolder;
-  font-size: 2em;
+  font-size: 3em;
+  text-align: center;
 }
 
 .about-images {
@@ -265,7 +266,7 @@ a:hover {
 
 .prev:hover,
 .next:hover {
-  background-color: rgba(0, 0, 0, 0.8);
+  background-color: #ff9933;
 }
 
 /* Fix for sections being too wide */
@@ -294,4 +295,51 @@ section {
   .home-image {
     max-width: 80%;
   }
+}
+.about-paragraph{
+  font-size: 22px;
+  font-weight: normal;
+  font-family: Arial, sans-serif;
+  color: #ff9933;
+  padding: 20px;
+}
+
+#donations-header {
+  font-size: 4em;
+  text-align: center;
+  color: #ff9933;
+}
+
+#donations-second-header {
+  font-size: 2em;
+  text-align: center;
+  color: #ff9933;
+  padding-top: 60px;
+}
+
+.donations-third-header{
+  font-size: 1.8em;
+  text-align: center;
+  color: #ff9933;
+  padding-top: 40px;
+}
+
+.contact-text {
+  text-align: center;
+  padding: 20px;
+  color: #ff9933;
+  font-weight: bolder;
+  font-style: italic;
+}
+
+#contact-header {
+  text-align: center;
+  padding: 20px;
+  color: #ff9933;
+  font-size: 2em;
+}
+
+footer {
+  background-color: #00cc00;
+  padding: 40px;
 }
