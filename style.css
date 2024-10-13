@@ -270,6 +270,14 @@ a:hover {
   background-color: #00cc00;
 }
 
+.about-video {
+  width: 70%;  /* Set the desired width (similar to your image sizing) */
+  max-width: 600px;  /* Ensure it doesn't exceed a maximum width */
+  height: auto;  /* Maintain aspect ratio */
+  display: block;
+  margin: 0 auto;  /* Center the video */
+}
+
 /* Fix for sections being too wide */
 section {
   width: 100%;
